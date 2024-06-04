@@ -1,0 +1,14 @@
+.container {
+    
+    background-image: url('imagen6.jpg');
+    background-color: #1a1a1a; /* Color de fondo oscuro */
+    color: #ff00ff; /* Color de texto magenta */
+    
+    font-family: 'Courier New', monospace; /* Fuente estilo Courier New */
+}
+
+.demotext {
+    color: #f7f7f7; /* Color de texto púrpura */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra de texto */
+    font-family: 'Courier New', monospace; /* Fuente estilo Courier New */
+}

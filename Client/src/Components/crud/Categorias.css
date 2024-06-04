@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.marca, .categoria, .producto {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 400px;
+}
+
+.marca:hover, .categoria:hover, .producto:hover {
+    transform: translateY(-5px);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+input, select {
+    background-color: #333;
+    border: 5px solid #ff8800;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    width: calc(100% - 22px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #ff8800;
+    box-shadow: 0 0 8px rgba(255, 136, 0, 0.7);
+}
+
+button {
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+.button5 {
+    background-color: #555;
+}
+
+.button5:hover {
+    background-color: #777;
+}
+
+.input {
+    border: 1px solid #ff8800;
+}
